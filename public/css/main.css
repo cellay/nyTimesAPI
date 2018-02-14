@@ -1,14 +1,17 @@
+* {
+ box-sizing: border-box;
+}
 
 .container {
-    height: 80vh;
+ height: 80vh;
 }
 
 ul {
-    display: flex; 
-    flex-direction: column;
+ display: flex; 
+ flex-direction: column;
 }
 
 ul li {
    margin-bottom: 15px;
-    color: brown;
+ color: brown;
 }
