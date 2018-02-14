@@ -1,0 +1,14 @@
+
+.container {
+    height: 80vh;
+}
+
+ul {
+    display: flex; 
+    flex-direction: column;
+}
+
+ul li {
+   margin-bottom: 15px;
+    color: brown;
+}

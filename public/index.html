@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NYTimes</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+  <nav>
+    <div class="nav-wrapper">
+      <form id="search-box">
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+        <div class="row">
+          <button class="btn col s3" id="btnxhr">Search(xhr)</button>
+          <button class="btn col s3" id="btnfetch">Search(fetch)</button>
+        </div>
+      </form>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col s12 container">
+      <ul id="response">
+        <!-- <li class="tab col s3"><a href="#test1">Test 1</a></li> -->
+      </ul>
+    </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
